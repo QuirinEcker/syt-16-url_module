@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: rgba(0, 39, 138, 1);
+}
+header h1{
+    margin: 0;
+    padding: 2%;
+    color:#fff;
+    text-align: center;
+    font-size: 2rem;
+}
+nav {
+    background-color: rgba(0, 39, 138, 0.8);
+}
+nav a {
+    display: inline-block;
+    padding: 1.5%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav a:hover, nav a.active {
+    background-color: rgba(0,39, 138, 0.7);
+}
+main {
+    padding: 0 10%;
+}
+main h2 {
+    margin: 3% 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
